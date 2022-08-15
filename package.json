@@ -8,11 +8,13 @@
   ],
   "dependencies": {
     "elm": "^0.19.1-5",
+    "elm-review": "^2.7.3",
     "elm-test": "^0.19.1-revision9"
   },
   "scripts": {
     "dev:birch": "yarn workspace birch run dev",
     "dev:maple": "yarn workspace maple run dev",
-    "dev:oak": "yarn workspace oak run dev"
+    "dev:oak": "yarn workspace oak run dev",
+    "review": "yarn elm-review"
   }
 }

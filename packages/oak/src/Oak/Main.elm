@@ -12,6 +12,15 @@ import Html exposing (Html, button, div, text, h1)
 import Html.Events exposing (onClick)
 import Maple.StaticTranslations as StaticTranslations
 
+-- Unused
+
+type alias User = 
+  { firstName : String
+  , lastName : String
+  }
+
+type AppState = NotInitialized | Ready User | Error String
+
 
 -- MAIN
 
