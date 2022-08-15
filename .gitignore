@@ -1,0 +1,37 @@
+# Desktop Services Store on macOS
+.DS_Store
+
+# InteliJ Idea
+.idea
+
+# Visual Studio Code bs
+.vscode
+
+# Distribution
+/build/
+
+# elm-package generated files
+/elm-stuff/
+elm-stuff
+/tests/elm-stuff/
+
+# elm-repl generated files
+/repl-temp-*
+
+# Dependency directories
+/node_modules/
+node_modules
+
+# JavaScript
+yarn-error.log
+
+# elm-css
+/src/main.css
+
+# elm-coverage
+/.coverage/
+
+# Project
+/.env.local
+/.env.development.local
+/.env.production.local

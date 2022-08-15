@@ -1,0 +1,17 @@
+{
+  "name": "multiple-elm-projects-with-elm-review",
+  "version": "1.0.0",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "dependencies": {
+    "elm": "^0.19.1-5"
+  },
+  "scripts": {
+    "dev:birch": "yarn workspace birch run dev",
+    "dev:maple": "yarn workspace maple run dev",
+    "dev:oak": "yarn workspace oak run dev"
+  }
+}
