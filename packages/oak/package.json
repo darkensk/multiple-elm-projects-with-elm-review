@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "license": "MIT",
   "scripts": {
-    "dev": "elm reactor"
+    "dev": "elm reactor",
+    "review": "yarn elm-review src"
+  },
+  "dependencies": {
+    "elm-review": "^2.7.3"
   }
 }

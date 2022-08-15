@@ -13,6 +13,9 @@
   "scripts": {
     "dev:birch": "yarn workspace birch run dev",
     "dev:maple": "yarn workspace maple run dev",
-    "dev:oak": "yarn workspace oak run dev"
+    "dev:oak": "yarn workspace oak run dev",
+    "review:birch": "yarn workspace birch run review",
+    "review:maple": "yarn workspace maple run review",
+    "review:oak": "yarn workspace oak run review"
   }
 }
